@@ -1,4 +1,5 @@
 ﻿using System.Security;
+using Demo.inhertance;
 using Microsoft.VisualBasic.FileIO;
 
 namespace Demo
@@ -67,12 +68,23 @@ namespace Demo
 
             #region class
 
-            Car c1;
-            c1 = new Car(1, "BMW", 400);
-            Console.WriteLine(c1.ToString());
+            //Car c1;
+            //c1 = new Car(1, "BMW", 400);
+            //Console.WriteLine(c1.ToString());
 
             #endregion
 
+
+            #region parent
+
+            //parant p = new parant(1, 2);
+            //Console.WriteLine(p.Prouduct());
+
+
+            Child C = new Child(1, 2, 3);
+            Console.WriteLine(C.Prouduct());
+
+            #endregion
         }
     }
 }

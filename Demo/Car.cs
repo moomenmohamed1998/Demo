@@ -57,7 +57,7 @@ namespace Demo
 		}
         #endregion
 
-        #region MyRegion
+        #region  
 
         public override string ToString()
         {
