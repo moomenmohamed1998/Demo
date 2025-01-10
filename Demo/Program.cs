@@ -38,6 +38,7 @@ namespace Demo
             //Console.WriteLine(Note[0]);
             #endregion
 
+            #region Enum
             //Employee emp = new Employee();
             //emp.Id = 1;
             //emp.Name = "Ahmed";
@@ -61,7 +62,16 @@ namespace Demo
             //if ((p &Permission.Delete)==Permission.Delete)
             //    Console.WriteLine("Delete is Exsist");
             //else
-            //    Console.WriteLine("Delete is not Exsist");
+            //    Console.WriteLine("Delete is not Exsist"); 
+            #endregion
+
+            #region class
+
+            Car c1;
+            c1 = new Car(1, "BMW", 400);
+            Console.WriteLine(c1.ToString());
+
+            #endregion
 
         }
     }
